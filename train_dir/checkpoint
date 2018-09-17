@@ -1,6 +1,0 @@
-model_checkpoint_path: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-50000"
-all_model_checkpoint_paths: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-44218"
-all_model_checkpoint_paths: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-46024"
-all_model_checkpoint_paths: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-47828"
-all_model_checkpoint_paths: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-49628"
-all_model_checkpoint_paths: "G:\\data\\resnet50\\cifar10/train_dir\\model.ckpt-50000"
