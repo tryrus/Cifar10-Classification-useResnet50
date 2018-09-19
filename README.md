@@ -1,23 +1,23 @@
 # resnet 50 识别cifar10
 
-####下载TF-slim源码
+下载TF-slim源码
 ```
 git clone https://github.com/tensorflow/models/
 ```
 
 
-####下载cifar10数据并转换格式为trconf
+下载cifar10数据并转换格式为trconf
 ```
 python slim/download_and_convert_data.py --dataset_name=cifar10 --dataset_dir=data
 ```
 
-####下载resnet50模型
+下载resnet50模型
 ```
 下载地址：http://download.tensorflow.org/models/resnet_v2_50_2017_04_14.tar.gz
 
 ```
 
-####训练resnet50
+训练resnet50
 
 ```
 python slim/train_image_classifier.py 
@@ -35,7 +35,7 @@ python slim/train_image_classifier.py
   --optimizer=adma
 ```
 
-####验证模型准确率
+验证模型准确率
 
 ```
 python slim/eval_image_classifier.py \
@@ -47,7 +47,7 @@ python slim/eval_image_classifier.py \
   --model_name=resnet_v2_50
 ```
 
-####通过TensorBoard查看loss
+通过TensorBoard查看loss
 
 ```
 tensorboard --logdir train_dir
