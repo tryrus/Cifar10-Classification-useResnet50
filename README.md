@@ -52,3 +52,12 @@ python slim/eval_image_classifier.py \
 ```
 tensorboard --logdir train_dir
 ```
+
+
+```
+ps:以下文件可能需要单独下载
+data/cifar10_test.tfrecord 22.8M
+data/cifar10_train.tfrecord 114M
+pretrained/resnet_v2_50.ckpt 293M
+train_dir/model.ckpt-50000.data-00000-of-00001 269M
+```
