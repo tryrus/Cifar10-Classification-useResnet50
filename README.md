@@ -20,7 +20,7 @@ python slim/download_and_convert_data.py --dataset_name=cifar10 --dataset_dir=da
 训练resnet50
 
 ```
-python slim/train_image_classifier.py 
+python slim/train_image_classifier.py \
   --train_dir=train_dir \
   --dataset_name=cifar10 \
   --dataset_split_name=train \
