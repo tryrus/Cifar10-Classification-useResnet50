@@ -32,7 +32,7 @@ python slim/train_image_classifier.py \
   --batch_size=16 \
   --learning_rate=0.001 \
   --log_every_n_steps=100 \
-  --optimizer=adma
+  --optimizer=adam
 ```
 
 验证模型准确率
